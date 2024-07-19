@@ -53,7 +53,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -7130,7 +7132,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.686796875000055,
+        "zoomFactor": 0.6040838749989007,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23319,13 +23321,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "assets\\Time Flies _Clement Panchout _2016(1).wav",
+                "1",
                 "yes",
-                "8",
+                "10",
                 ""
               ]
             },
