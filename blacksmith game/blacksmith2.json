@@ -5492,6 +5492,103 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterBasin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WaterBasin1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PixelOperator8-Bold.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\PixelOperator8-Bold.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PixelOperator8-Bold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PixelOperator8-Bold.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cursor.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EPrompt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\EPrompt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/InventorySlot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\InventorySlot.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IronOreInventory1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\IronOreInventory1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IronSwordInventory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\IronSwordInventory.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IronOre1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\IronOre1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MoltenIronInventory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MoltenIronInventory.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UnfinishedBlade1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UnfinishedBlade1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6951,8 +7048,8 @@
         "scale": 0.5,
         "fontSize": 20,
         "tint": "255;255;255",
-        "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
-        "textureAtlasResourceName": "PixelOperator8-Bold.png",
+        "bitmapFontResourceName": "assets\\PixelOperator8-Bold.fnt",
+        "textureAtlasResourceName": "assets\\PixelOperator8-Bold.png",
         "align": "left",
         "wordWrap": true
       }
@@ -7033,7 +7130,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.2121641972173933,
+        "zoomFactor": 2.686796875000055,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22619,7 +22716,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "WaterBasin1.png",
+                      "image": "assets\\WaterBasin1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22663,7 +22760,7 @@
           "assetStoreId": "",
           "height": 4,
           "name": "Cursor",
-          "texture": "Cursor.png",
+          "texture": "assets\\Cursor.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 4,
           "variables": [],
@@ -22674,40 +22771,7 @@
           "assetStoreId": "",
           "height": 16,
           "name": "IronOre",
-          "texture": "IronOre1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "FurnaceInteract",
-          "texture": "InteractSquare.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "AnvilInteract",
-          "texture": "InteractSquare.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "WaterInteract",
-          "texture": "InteractSquare.png",
+          "texture": "assets\\IronOre1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 16,
           "variables": [],
@@ -22718,7 +22782,7 @@
           "assetStoreId": "",
           "height": 16,
           "name": "EPrompt",
-          "texture": "EPrompt.png",
+          "texture": "assets\\EPrompt.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 15,
           "variables": [],
@@ -22789,7 +22853,7 @@
           "assetStoreId": "",
           "height": 64,
           "name": "InventorySlot",
-          "texture": "InventorySlot.png",
+          "texture": "assets\\InventorySlot.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
@@ -22800,7 +22864,7 @@
           "assetStoreId": "",
           "height": 64,
           "name": "IronOreInventory",
-          "texture": "IronOreInventory1.png",
+          "texture": "assets\\IronOreInventory1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
@@ -22811,359 +22875,12 @@
           "assetStoreId": "",
           "height": 64,
           "name": "IronSwordInventory",
-          "texture": "IronSwordInventory.png",
+          "texture": "assets\\IronSwordInventory.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FurnaceBarBorder",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "BarBorder",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BarBorder.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 47
-                          },
-                          {
-                            "x": 3,
-                            "y": 47
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FurnaceBarBackground",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "BarBackground",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BarBackground.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 47
-                          },
-                          {
-                            "x": 3,
-                            "y": 47
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FurnaceBar",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": false,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": false,
-              "deceleration": 1500,
-              "gravity": 700,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 100,
-              "jumpSustainTime": 0,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 100,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "FurnaceBar.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 2
-                          },
-                          {
-                            "x": 0,
-                            "y": 2
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FurnaceTarget",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "FurnaceTarget1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 10
-                          },
-                          {
-                            "x": 0,
-                            "y": 10
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SpacePrompt",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "SpacePrompt.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 12
-                          },
-                          {
-                            "x": 1,
-                            "y": 12
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 1,
-          "name": "FurnaceGameBound",
-          "texture": "FurnaceBounds.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 10,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -23185,7 +22902,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "MoltenIronInventory.png",
+                      "image": "assets\\MoltenIronInventory.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23245,7 +22962,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "UnfinishedBlade1.png",
+                      "image": "assets\\UnfinishedBlade1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23292,21 +23009,6 @@
           {
             "folderName": "UI",
             "children": [
-              {
-                "objectName": "FurnaceBarBorder"
-              },
-              {
-                "objectName": "FurnaceTarget"
-              },
-              {
-                "objectName": "FurnaceBarBackground"
-              },
-              {
-                "objectName": "FurnaceBar"
-              },
-              {
-                "objectName": "SpacePrompt"
-              },
               {
                 "objectName": "Cursor"
               },
@@ -23412,15 +23114,6 @@
             "children": [
               {
                 "objectName": "IronOre"
-              },
-              {
-                "objectName": "FurnaceInteract"
-              },
-              {
-                "objectName": "AnvilInteract"
-              },
-              {
-                "objectName": "WaterInteract"
               },
               {
                 "objectName": "IronSword"
@@ -23607,9 +23300,6 @@
                 "objectName": "Fern8"
               }
             ]
-          },
-          {
-            "objectName": "FurnaceGameBound"
           }
         ]
       },
@@ -25668,10 +25358,6 @@
           "type": "PlatformBehavior::PlatformBehavior"
         },
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -25690,10 +25376,6 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ]
     }
