@@ -6589,6 +6589,66 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Transition3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Transition3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/StoneBreak.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\StoneBreak.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/ItemPickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\ItemPickup.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Transition.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Transition.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PaperOpen.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\PaperOpen.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -27131,7 +27191,7 @@
                       },
                       "parameters": [
                         "",
-                        "FirepitCrackle.wav",
+                        "assets\\FireCrackle.wav",
                         "no",
                         "100",
                         ""
@@ -29171,7 +29231,7 @@
               },
               "parameters": [
                 "",
-                "Transition.wav",
+                "assets\\Transition.wav",
                 "",
                 "",
                 ""
@@ -30042,7 +30102,7 @@
               },
               "parameters": [
                 "",
-                "PaperOpen.wav",
+                "assets\\PaperOpen.wav",
                 "",
                 "",
                 ""
@@ -30144,7 +30204,7 @@
               },
               "parameters": [
                 "",
-                "PaperOpen.wav",
+                "assets\\PaperOpen.wav",
                 "",
                 "",
                 ""
@@ -38759,7 +38819,7 @@
               },
               "parameters": [
                 "",
-                "One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+                "assets\\One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
                 "yes",
                 "",
                 ""
@@ -39102,7 +39162,7 @@
                   },
                   "parameters": [
                     "",
-                    "Transition3.wav",
+                    "assets\\Transition3.wav",
                     "",
                     "",
                     ""
@@ -39729,7 +39789,7 @@
               },
               "parameters": [
                 "",
-                "StoneBreak.wav",
+                "assets\\StoneBreak.wav",
                 "",
                 "",
                 ""
@@ -39861,7 +39921,7 @@
               },
               "parameters": [
                 "",
-                "StoneBreak.wav",
+                "assets\\StoneBreak.wav",
                 "",
                 "",
                 ""
@@ -39993,7 +40053,7 @@
               },
               "parameters": [
                 "",
-                "StoneBreak.wav",
+                "assets\\StoneBreak.wav",
                 "",
                 "",
                 ""
@@ -40125,7 +40185,7 @@
               },
               "parameters": [
                 "",
-                "StoneBreak.wav",
+                "assets\\StoneBreak.wav",
                 "",
                 "",
                 ""
@@ -40257,7 +40317,7 @@
               },
               "parameters": [
                 "",
-                "StoneBreak.wav",
+                "assets\\StoneBreak.wav",
                 "",
                 "",
                 ""
@@ -40434,7 +40494,7 @@
               },
               "parameters": [
                 "",
-                "ItemPickup.wav",
+                "assets\\ItemPickup.wav",
                 "",
                 "",
                 ""
