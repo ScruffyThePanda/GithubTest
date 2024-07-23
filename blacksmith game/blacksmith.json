@@ -6499,6 +6499,96 @@
         "name": "InventoryShower",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "ItemPickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ItemPickup.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "StoneBreak.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "StoneBreak.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Transition.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Transition.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Transition2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Transition2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Transition3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Transition3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "AnvilClang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "AnvilClang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "../../../Page turn sound effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Page turn sound effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "PaperOpen.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PaperOpen.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6672,9 +6762,9 @@
           "IsCalledManually": false
         },
         {
-          "maxSpeed": 100,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 100,
           "acceleration": 1000,
           "deceleration": 2000,
           "ignoreDefaultControls": false,
@@ -8495,6 +8585,78 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BigScroll",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 9
+                      },
+                      {
+                        "x": 110,
+                        "y": 9
+                      },
+                      {
+                        "x": 110,
+                        "y": 120
+                      },
+                      {
+                        "x": 34,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 4,
+      "name": "Cursor",
+      "texture": "assets\\Cursor.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 4,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -8568,6 +8730,12 @@
       },
       {
         "objectName": "InventoryIndicator"
+      },
+      {
+        "objectName": "BigScroll"
+      },
+      {
+        "objectName": "Cursor"
       }
     ]
   },
@@ -8655,7 +8823,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8141881203710243,
+        "zoomFactor": 0.8700232859857644,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24386,17 +24554,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 4,
-          "name": "Cursor",
-          "texture": "assets\\Cursor.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 4,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "d326110e7bd440f4a51b8ba496dafb61d1817351e677dbb99451e28ffadbe2b9",
           "name": "IronSword",
@@ -25199,67 +25356,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "BigScroll",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 34,
-                            "y": 9
-                          },
-                          {
-                            "x": 110,
-                            "y": 9
-                          },
-                          {
-                            "x": 110,
-                            "y": 120
-                          },
-                          {
-                            "x": 34,
-                            "y": 120
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "TutorialText",
           "type": "BitmapText::BitmapTextObject",
@@ -25267,7 +25363,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Use the arrow keys to move. F opens the inventory, and Q closes it. You must gather ores from the mine down below and use the equipment in the room above to smelt it into a sword. You can then put the sword on display on the shelves to the left.",
+            "text": "Use the arrow keys to move. F opens the inventory, and Q closes it. You must gather ores from the mine down below and use the equipment in the room above to smelt it into a sword. To mine the ore, stand next to it and hover your mouse over it. You can then put the sword on display on the shelves to the left.",
             "opacity": 255,
             "scale": 0.8,
             "fontSize": 20,
@@ -25286,13 +25382,7 @@
             "folderName": "UI",
             "children": [
               {
-                "objectName": "BigScroll"
-              },
-              {
                 "objectName": "TutorialText"
-              },
-              {
-                "objectName": "Cursor"
               },
               {
                 "objectName": "IronOreInventory"
@@ -27635,6 +27725,18 @@
                     "InventoryIndicator",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "AnvilClang.wav",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -29062,6 +29164,18 @@
                 "\"Mine\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Transition.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -29921,6 +30035,18 @@
               "parameters": [
                 "InventoryIndicator"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "PaperOpen.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -30009,6 +30135,18 @@
               },
               "parameters": [
                 "InventoryIndicator",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "PaperOpen.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -38614,6 +38752,30 @@
                 "=",
                 "200"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "One Man Symphony - Downtempo & Lofi & Progressive Music Pack Vol - 1 (Free) - 01 A Place Where It's Just The Two Of Us.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cursor",
+                "MouseX() - 2",
+                "MouseY() - 2",
+                ""
+              ]
             }
           ]
         },
@@ -38933,6 +39095,18 @@
                     "\"Main\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Transition3.wav",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             }
@@ -39194,35 +39368,6 @@
               "parameters": [
                 "Blacksmith",
                 "WallSideFrontRight",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Blacksmith",
-                "WallCorner",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Blacksmith",
-                "WallCorner",
                 ""
               ]
             }
@@ -39577,6 +39722,18 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "StoneBreak.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -39695,6 +39852,18 @@
               "parameters": [
                 "AlreadyMined2",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "StoneBreak.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -39817,6 +39986,18 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "StoneBreak.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -39937,6 +40118,18 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "StoneBreak.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -40055,6 +40248,18 @@
               "parameters": [
                 "AlreadyMined5",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "StoneBreak.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -40221,6 +40426,18 @@
                 "InventoryIronOre",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ItemPickup.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -40788,6 +41005,67 @@
               "parameters": [
                 "RawIron5",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Sprite"
+              },
+              "parameters": [
+                "Blacksmith",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\StoneFootstep1.wav",
+                "",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Cursor",
+                "=",
+                "MouseX() - 2",
+                "=",
+                "MouseY() - 2"
               ]
             }
           ]
