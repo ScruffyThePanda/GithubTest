@@ -8008,6 +8008,15 @@
         "name": "NewSprite25",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite26",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11007,7 +11016,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.3841198046307495,
+        "zoomFactor": 2.130165915900375,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14222,6 +14231,23 @@
           "x": 16,
           "y": 16,
           "zOrder": 308,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CreditsScroll",
+          "persistentUuid": "e4de2a07-7927-4153-a799-71b6e5295800",
+          "width": 16,
+          "x": 672,
+          "y": 432,
+          "zOrder": 309,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27719,6 +27745,127 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CreditsScroll",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite26",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 9
+                          },
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 46,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TutorialText2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Credits: \nSoren Chen - Inventory system, crafting minigame systems, assets for the minigames \nDustan Stokes - assets for the first and second floor of the mines, sound effects\nGeoffrey Tang - assets in the main workshop\nUsed assets from: CaptainSkeleto, gold ore: https://captainskeleto.itch.io/36-rocks-pack-v2-top-down-\nassets-pixelart-pixel-art-pack\nVecteezy, raw gold: https://www.vecteezy.com/png/19527049-an-8-bit-retro-\nstyled-pixel-art-illustration-of-gold\nOne Man Symphony, music: https://onemansymphony.bandcamp.com/",
+            "opacity": 255,
+            "scale": 0.8,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\PixelOperator8-Bold.png",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -27729,6 +27876,9 @@
             "children": [
               {
                 "objectName": "TutorialText"
+              },
+              {
+                "objectName": "TutorialText2"
               },
               {
                 "objectName": "IronOreInventory"
@@ -27900,6 +28050,9 @@
               },
               {
                 "objectName": "Scroll"
+              },
+              {
+                "objectName": "CreditsScroll"
               }
             ]
           },
@@ -28053,6 +28206,9 @@
           },
           {
             "objectName": "APrompt"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -33001,6 +33157,19 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Blacksmith",
+                    "CreditsScroll",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             }
@@ -33872,6 +34041,19 @@
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Blacksmith",
+                    "CreditsScroll",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -34261,6 +34443,18 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Blacksmith",
+                    "CreditsScroll",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             }
@@ -34353,6 +34547,19 @@
                   "parameters": [
                     "Blacksmith",
                     "Scroll",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Blacksmith",
+                    "CreditsScroll",
                     "",
                     "",
                     ""
@@ -34831,6 +35038,37 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CreditsScroll",
+                "Blacksmith",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EPrompt",
+                "672",
+                "416",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
@@ -34973,6 +35211,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TutorialText",
+                "Text",
+                "=",
+                "\"Use the arrow keys to move. F opens the inventory, D changes the view to gold (press F again to view iron again), and Q closes it. Gather ores from the mine below and smelt it in the room above. To mine the ore, stand next to it and hover your mouse over it. You can then put the sword on display on the shelves to the left.\""
+              ]
             }
           ]
         },
@@ -35074,6 +35323,167 @@
                 "",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "CreditsScroll",
+                    "Blacksmith",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BigScroll",
+                "176",
+                "176",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TutorialText",
+                "548",
+                "234",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "BigScroll",
+                "Resizable",
+                "1216",
+                "544"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetWrappingWidth"
+              },
+              "parameters": [
+                "TutorialText",
+                "=",
+                "192"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "QPrompt",
+                "368",
+                "220",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "QPrompt",
+                "Resizable",
+                "128",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Blacksmith",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ScrollOpen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "InventoryIndicator"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\PaperOpen.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TutorialText",
+                "Text",
+                "=",
+                "\"Credits: \nSoren Chen - Inventory system, crafting minigame systems, assets for the minigames \nDustan Stokes - assets for the first and second floor of the mines, sound effects\nGeoffrey Tang - assets in the main workshop\nUsed assets from: CaptainSkeleto, gold ore: https://captainskeleto.itch.io/36-rocks-pack-v2-top-down-\nassets-pixelart-pixel-art-pack\nVecteezy, raw gold: https://www.vecteezy.com/png/19527049-an-8-bit-retro-\nstyled-pixel-art-illustration-of-gold\nOne Man Symphony, music: https://onemansymphony.bandcamp.com/\""
               ]
             }
           ]
@@ -35226,7 +35636,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156952,
+        "zoomFactor": 0.9610368693714927,
         "windowMask": false
       },
       "objectsGroups": [],
