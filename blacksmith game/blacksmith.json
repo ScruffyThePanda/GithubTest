@@ -8017,6 +8017,36 @@
         "name": "NewSprite26",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "ChestClose.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ChestClose.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "ChestOpenwav.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ChestOpenwav.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "BoneRattle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BoneRattle.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10878,7 +10908,7 @@
       "folded": true,
       "name": "InventoryIronOre",
       "type": "number",
-      "value": 90
+      "value": 0
     },
     {
       "folded": true,
@@ -11016,7 +11046,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.130165915900375,
+        "zoomFactor": 1.7458023987468652,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31794,6 +31824,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32553,11 +32584,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ]
             }
@@ -34360,6 +34386,18 @@
                 "=",
                 "170"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestOpenwav.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -34999,6 +35037,18 @@
                 "GoldSwordInventory",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestClose.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -35484,6 +35534,18 @@
                 "Text",
                 "=",
                 "\"Credits: \nSoren Chen - Inventory system, crafting minigame systems, assets for the minigames \nDustan Stokes - assets for the first and second floor of the mines, sound effects\nGeoffrey Tang - assets in the main workshop\nUsed assets from: CaptainSkeleto, gold ore: https://captainskeleto.itch.io/36-rocks-pack-v2-top-down-\nassets-pixelart-pixel-art-pack\nVecteezy, raw gold: https://www.vecteezy.com/png/19527049-an-8-bit-retro-\nstyled-pixel-art-illustration-of-gold\nOne Man Symphony, music: https://onemansymphony.bandcamp.com/\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\PaperOpen.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -50079,6 +50141,18 @@
                 "=",
                 "170"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestOpenwav.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -50499,6 +50573,18 @@
               },
               "parameters": [
                 "GoldOreInventory",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestClose.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -62128,6 +62214,12 @@
                     "",
                     "e"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -62140,6 +62232,18 @@
                     "Animation",
                     "=",
                     "\"Crumbling Into Bone Pile\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "BoneRattle.wav",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -63965,6 +64069,18 @@
                 "=",
                 "170"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestOpenwav.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -64130,6 +64246,18 @@
               },
               "parameters": [
                 "GoldOreInventory",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ChestClose.wav",
+                "",
+                "",
                 ""
               ]
             }
